@@ -1,0 +1,13 @@
+{
+  "name": "javacriptmini",
+  "version": "1.0.0",
+  "description": "",
+  "main": "miniscript.js",
+  "scripts": {
+    "miniscript": "node --watch ./Uzduotis/miniscript.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Egle <egletarabildiene@gmail.com> (https://github.com/EgleTarabildiene)",
+  "license": "MIT"
+}

@@ -58,7 +58,7 @@ console.log(sarasas22[2]);
 console.log(sarasas22[3]);
 console.log(sarasas22[4]);
 
-const sarasas23 = ['masina', 'autobusas', 'lektuvas', 'traukinis', 'dviratis'];
+const sarasas23 = ['riedis', 'autobusas', 'lektuvas', 'traukinis', 'dviratis'];
 console.log(sarasas23[0]);
 console.log(sarasas23[1]);
 console.log(sarasas23[2]);
@@ -66,6 +66,9 @@ console.log(sarasas23[3]);
 console.log(sarasas23[4]);
 
 // veiksmai su kintamaisiais
+
+
+
 //1
 const sum = a + b + c;
 console.log(sum);
@@ -83,7 +86,7 @@ console.log(verte1);
 const verte12 = sarasas12[0] - sarasas12[1] + sarasas12[2] - sarasas12[3] + sarasas12[4];
 console.log(verte12);
 
-const verte13 = sarasas12[0] - sarasas12[1] + sarasas12[2] - sarasas12[3] + sarasas12[4];
+const verte13 = sarasas13[0] - sarasas13[1] + sarasas13[2] - sarasas13[3] + sarasas13[4];
 console.log(verte13);
 
 
@@ -94,6 +97,8 @@ const verte21 = sarasas21[0] + ', ' + sarasas21[1] + ', ' + sarasas21[2] + ', ' 
 console.log(verte21);
 const verte22 = sarasas22[0] + ', ' + sarasas22[1] + ', ' + sarasas22[2] + ', ' + sarasas22[3] + ', ' + sarasas22[4];
 console.log(verte22);
+const verte23 = sarasas23[0] + ', ' + sarasas23[1] + ', ' + sarasas23[2] + ', ' + sarasas23[3] + ', ' + sarasas23[4];
+console.log(verte23);
 
 
 
@@ -186,4 +191,59 @@ if (ilgis1.length <= ilgis2.length) {
 
 //4
 
-const sTipas1 = 
+
+
+
+
+//Ciklo for panaudojimas
+//1?
+
+
+
+//Funkcijos
+// 1.
+
+function tusciaFunkcija() {
+    return false;
+}
+console.log(tusciaFunkcija());
+
+//2
+
+const skaicius1 = 5;
+const skaicius2 = 8;
+const skaicius3 = skaicius1 * skaicius2;
+
+function daugyba(amount, amount2) {
+    return amount * amount2;
+}
+
+console.log(daugyba(skaicius1, skaicius2));
+console.log(daugyba(skaicius3, skaicius2));
+console.log(daugyba(skaicius1, skaicius3));
+
+//3
+
+const vienetas = 5;
+const neraS = typeof 5;
+const skaiciausIlgis = `&{vienetas}`.length;
+console.log(skaiciausIlgis);
+
+function skaitmenuKiekisSkaiciuja(duotas) {
+
+    if (typeof vienetas != neraS) {
+        console.log('Pateikta netinkamo tipo reiksme');
+    } else {
+        result = `${duotas}`.length;
+    }
+    return result;
+}
+console.log(skaitmenuKiekisSkaiciuja(5));
+console.log(skaitmenuKiekisSkaiciuja(781));
+console.log(skaitmenuKiekisSkaiciuja(37060123456));
+console.log(skaitmenuKiekisSkaiciuja(true));
+console.log(skaitmenuKiekisSkaiciuja(37060123456));
+
+
+
+
